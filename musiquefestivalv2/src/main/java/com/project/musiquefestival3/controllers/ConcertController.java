@@ -16,7 +16,7 @@ import com.project.musiquefestival3.entities.Concert;
 import com.project.musiquefestival3.services.ConcertService;
 
 @RestController
-@RequestMapping("concert")
+@RequestMapping("festival/")
 public class ConcertController {
     
 	ConcertService service;
@@ -36,7 +36,7 @@ public class ConcertController {
 		return this.service.findByTitre(titre);
 	}
 	
-	@PostMapping("concert")
+	@PostMapping("concert/add")
 	public Concert save(@RequestBody Concert concert) {
 		return  this.service.save(concert);
 	}
