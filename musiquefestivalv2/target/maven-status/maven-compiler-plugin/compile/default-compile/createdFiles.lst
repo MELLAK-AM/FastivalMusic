@@ -1,0 +1,9 @@
+com\project\musiquefestival3\controllers\ConcertController.class
+com\project\musiquefestival3\repositories\FestivalRepository.class
+com\project\musiquefestival3\services\ConcertService.class
+com\project\musiquefestival3\Musiquefestival3Application.class
+com\project\musiquefestival3\controllers\FestivalController.class
+com\project\musiquefestival3\repositories\ConcertRepository.class
+com\project\musiquefestival3\services\FestivalService.class
+com\project\musiquefestival3\entities\Concert.class
+com\project\musiquefestival3\entities\Festival.class
